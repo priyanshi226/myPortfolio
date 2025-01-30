@@ -43,3 +43,9 @@
         width: 30rem;
     }
 }
+
+@media (max-width: 576){
+    .contact-details-card{
+        width: 20rem;
+    }
+}
