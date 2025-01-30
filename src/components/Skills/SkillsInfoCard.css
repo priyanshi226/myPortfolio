@@ -55,8 +55,7 @@
 
 @media (max-width: 1025px) {
     .skill-info-card{
-    height: 20rem;
-    width: auto;
+    width: 20rem;
     }
 
     .skills-info-card h6{
