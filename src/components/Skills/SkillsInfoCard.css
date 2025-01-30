@@ -54,6 +54,11 @@
 } 
 
 @media (max-width: 1025px) {
+    .skill-info-card{
+    height: 20rem;
+    width: auto;
+    }
+
     .skills-info-card h6{
         font-size: 1.1rem;
     }
