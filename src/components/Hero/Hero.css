@@ -1,0 +1,124 @@
+.hero-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.hero-container::after, .hero-container::before{
+    content: "";
+    width:28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1; 
+    filter: blur(230px);
+}
+
+.hero-container::after{
+    top: -3rem;
+    left: -5rem;
+}
+
+.hero-container::before{
+    bottom: -5rem;
+    right: 0rem
+}
+
+.hero-content{
+    flex: 1;
+    padding: 1rem;
+    margin-top: 30px;
+}
+
+.hero-content h2{
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.hero-content p{
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 50%;
+}
+
+.picture {
+    border-radius: 10%;
+    height: 65%;
+    width: 65%;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+.tech-icons-image {
+    border-radius: 5%;
+    height:85%;
+    width: 50%;
+    border: 1.5px solid #6852ba;
+    border-radius: 20%;
+    transition: all 0.3s ease;
+    width: 80px;
+    height: 80px;
+}
+
+.picture:hover, .tech-icons-image:hover{
+    transform: translateY(-0.5rem);  
+  }
+
+.skill-icons{
+    display: flex;
+    padding-top: 15px;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+    .picture {
+        height: 75%;
+        width: 75%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .hero-container {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+    .hero-content p{
+        max-width: 100%;
+        margin-left: 10%;
+    }
+
+    .hero-img {
+        max-width: 100%; /* Full width for image */
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .picture {
+        width: 70%;
+        height: auto;
+    }
+
+    .skill-icons {
+        justify-content: center;
+    }
+}
