@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
+    overflow-x: hidden;
 }
 
 .hero-container::after, .hero-container::before{
