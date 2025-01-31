@@ -44,7 +44,7 @@
     }
 }
 
-@media (max-width: 576){
+@media (max-width: 576px){
     .contact-details-card{
         width: 20rem;
     }
