@@ -11,8 +11,3 @@ body{
   color: #fff;
   background-color: #060417;
 }
-
-html{
-  overflow-x: clip;
-  max-width: 100%;
-}
