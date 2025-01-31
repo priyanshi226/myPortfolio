@@ -73,7 +73,8 @@
         margin-bottom: 2rem;
     }
 
-    .skills-container::after, .skills-container::before{
+    .skills-container::after,
+    .skills-container::before{
         width: 18rem;
         height: 18rem;
     }
