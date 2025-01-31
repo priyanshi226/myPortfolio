@@ -63,3 +63,18 @@
         font-size: 0.9rem;
     }
 }
+
+@media(max-width: 600px){
+    .skills-card span{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 400px){
+    .skills-card span{
+        font-size: 0.8rem;
+    }
+    .skills-card{
+    padding: 1.5rem;
+    }
+}
