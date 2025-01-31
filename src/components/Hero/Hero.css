@@ -124,8 +124,14 @@
     }
 
     .tech-icons-image {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     overflow: hidden;
     }
 }
+
+/* @media screen and (max-width: 400px){
+    .hero-container{
+        max-width: 200px;
+    }
+} */
