@@ -6,6 +6,7 @@
     justify-content: space-between;
     margin-top: 20px;
     overflow-x: clip;
+    width: 110%;
 }
 
 .hero-container::after, .hero-container::before{
