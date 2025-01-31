@@ -27,7 +27,7 @@ const MobileNav = ({isOpen, toggleMenu}) => {
                <Link to="contact" duration = {500} smooth = {true} className='menu-item'>Contact Me</Link>
                </li>
 
-        <a href = "https://drive.google.com/file/d/1OlVoMWgTRtWwbUjWLJgqnlGqRmZMTE2J/view?usp=sharing"
+        <a href = "https://drive.google.com/file/d/1ZC76w37s37URX55KST5SRr7ockWMp2c6/view?usp=sharing"
         className='contact-btn' onClick={() => {}}>
             Resume
         </a>
